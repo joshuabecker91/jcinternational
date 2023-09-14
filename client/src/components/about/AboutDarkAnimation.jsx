@@ -58,10 +58,10 @@ const About = () => {
                   <label>E-mail</label>
                   <p>jacobcastanon@me.com</p>
                 </div>
-                {/* <div className="media">
+                <div className="media">
                   <label>Phone</label>
                   <p>820-885-3321</p>
-                </div> */}
+                </div>
 
                 {/* <div className="media">
                   <label>Skype</label>

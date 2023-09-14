@@ -1,6 +1,5 @@
 import React from "react";
 import Home from "../views/Home";
-import HomeBackup from "../views/HomeBackup";
 import NotFound from "../views/NotFound";
 import { Routes, Route } from "react-router-dom";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
@@ -11,7 +10,6 @@ const AllRoutes = () => {
       <ScrollTopBehaviour />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/dev" element={<HomeBackup />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
