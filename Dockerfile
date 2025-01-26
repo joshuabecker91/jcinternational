@@ -9,6 +9,8 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm install --force
+RUN npm dedupe
+RUN npm ci
 
 # Copy the rest of the application files
 COPY . .
