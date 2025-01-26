@@ -1,5 +1,5 @@
 # Stage 1: Build Stage, use a smaller base image for building
-FROM node:18 as build
+FROM node:18.2.0 as build
 
 # Set the working directory
 WORKDIR /app
