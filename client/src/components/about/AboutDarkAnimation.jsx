@@ -10,7 +10,7 @@ const About = () => {
           data-aos-duration="1200"
         >
           <div className="img-box dark-img-box">
-            <img src="img/about/about-2.jpg" alt="smiling a girl" />
+            <img src="img/about/about-2.jpeg" alt="smiling a girl" />
           </div>
         </div>
 
@@ -26,9 +26,10 @@ const About = () => {
               Traveling <span className="color-theme">Worship Leader</span> and {" "}
               <span className="color-theme">Minister</span>
             </h5>
+            <br/>
             <p>
               Jacob is dedicated to serving people. He is a passionate worship leader who uses the power of music to connect people with their faith, 
-              leading congregations into profound moments of spiritual reflection and praise. Additionally, as a pastor and avid traveler, 
+              leading congregations into profound moments of spiritual reflection and praise. <br/><br/>Additionally, as a pastor and avid traveler, 
               Jacob combines his deep-rooted faith with his love for exploration, embarking on transformative journeys that allow him to minister 
               to diverse communities around the world, spreading the message of love, hope, and unity.
             </p>
@@ -56,12 +57,12 @@ const About = () => {
               <div className="col-md-6">
                 <div className="media">
                   <label>E-mail</label>
-                  <p>jacobcastanon@me.com</p>
+                  <p>connect@jacobcastanon.com</p>
                 </div>
-                <div className="media">
-                  <label>Phone</label>
-                  <p>820-885-3321</p>
-                </div>
+                {/* <div className="media"> */}
+                  {/* <label>Phone</label> */}
+                  {/* <p>820-885-3321</p> */}
+                {/* </div> */}
 
                 {/* <div className="media">
                   <label>Skype</label>
