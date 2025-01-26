@@ -33,7 +33,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              JCI International{" "}
+              JC International{" "}
             </a>
             all rights reserved
           </p>

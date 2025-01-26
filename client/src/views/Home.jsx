@@ -147,7 +147,7 @@ const Home = () => {
                     <i className="ti-map"></i>
                   </div>
                   <span className="media-body">
-                    JCI International<br />
+                    JC International<br />
                     1 Main St, Po Box 1111, <br />
                     Spokane WA 750065.
                   </span>
