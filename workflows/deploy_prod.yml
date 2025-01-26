@@ -31,12 +31,12 @@ jobs:
       run: |
         echo "VERSION_NUMBER_WITH_OFFSET=$((1000+GITHUB_RUN_NUMBER))" >> $GITHUB_ENV
 
-    # Private Repo
-    # - name: Build, tag, and push docker image to Amazon ECR Public
-    #   env:
-    #     REGISTRY: 072950086190.dkr.ecr.us-west-1.amazonaws.com
-    #     REPOSITORY: fhspokane
-    #     IMAGE_TAG: ${{ env.VERSION_NUMBER_WITH_OFFSET }}
-    #   run: |
-    #     docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
-    #     docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
+    Private Repo
+    - name: Build, tag, and push docker image to Amazon ECR Public
+      env:
+        REGISTRY: 488856351573.dkr.ecr.us-west-1.amazonaws.com
+        REPOSITORY: jcinternational
+        IMAGE_TAG: ${{ env.VERSION_NUMBER_WITH_OFFSET }}
+      run: |
+        docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
+        docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
