@@ -10,7 +10,7 @@ const Slider = () => {
         className="home-banner overlay overlay-65"
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.9)), url(${
-            process.env.PUBLIC_URL + "img/banner/bg-5.jpeg"
+            process.env.PUBLIC_URL + "img/banner/bg-5.jpg"
           })`,
         }}
       >

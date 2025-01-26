@@ -73,7 +73,7 @@ const Header = () => {
                     <span>About</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a className="nav-link" href="#work" onClick={handleClick}>
                     <span>Updates</span>
                   </a>
@@ -92,7 +92,7 @@ const Header = () => {
                   <a className="nav-link" href="/booking" onClick={handleClick}>
                     <span>Booking</span>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a className="nav-link" href="https://donorbox.org/jacobcastanon" onClick={handleClick}>
                     <span>Give</span>
